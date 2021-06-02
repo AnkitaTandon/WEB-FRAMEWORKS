@@ -1,0 +1,56 @@
+<html>
+    <style>
+        body{
+            background-color: darkcyan;
+            color: cornsilk;
+            font-family: cursive;
+        }
+    </style>
+    <body>
+        <form action="/action_page.php" method="post">
+            <br><br>
+              <form>
+                <table style="border:'none'" height='600px' width='650px' align='center' cellpadding='10'>
+                    <tr>
+                        <td colspan="4" align="center" ><b>REGISTRATION FORM</b></td>
+                       
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right" cellpadding="15">NAME</td>
+                        <td colspan="2"><input type="text" name="namefield" width="800" required></td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2" align="right" cellpadding="15">AGE</td>
+                        <td colspan="2"><input type="number" name="agefield" width="800" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right" cellpadding="15">PHONE NUMBER</td>
+                        <td colspan="2"><input type="tel" name="telfield" width="800" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right" cellpadding="15">EMAIL</td>
+                        <td colspan="2"><input type="email" name="mailfield" width="800" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right" cellpadding="15">GENDER</td>
+                        <td colspan="2"><input type="radio" name="gendername" title="Female"width="800" required><label for="Female">Female</label><input type="radio" name="gendername" title="Male"width="800"><label for="Male">Male</label><input type="radio" name="gendername" title="Other"width="800"><label for="Other">Other</label></td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2" align="right" cellpadding="15">DOB</td>
+                        <td colspan="2"><input type="date" name="datetimefield" width="800" required></td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2" align="right" cellpadding="15">ADDRESS DETAILS</td>
+                        <td colspan="2"><textarea name="message" rows="5" cols="30"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center"><button type="reset" name="resetfield">RESET</button></td>
+                        <td colspan="2" ><button type="submit" name="submitfield">SUBMIT</button></td>
+                    </tr>
+                    
+                </table></form>
+    </body>
+</html>
