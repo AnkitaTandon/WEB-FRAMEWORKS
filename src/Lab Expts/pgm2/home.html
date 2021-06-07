@@ -1,0 +1,22 @@
+<!--Design a static webpage for creating an Online book store. <Constraints->
+    3 <frameset>
+        1. top frame: logo for college name and links toh home pages 
+        2. Left frame: Login pages,Registration pages,cart page
+        3. Right frame: links to the department pages 
+
+    </frameset>
+</Constraints->-->
+
+<html>
+    <frameset rows='15%,8%,77%'>
+        <frameset cols='20%,80%'>
+            <frame src='logo.html' scrolling='no'></frame>
+            <frame src="title.html"></frame>
+        </frameset>
+        <frame src='menu.html' name='f2' scrolling='no'></frame>
+        <frameset cols='20%,80%'>
+            <frame src='branches.html' name='f31' scrolling='no'></frame>
+            <frame src='home_desk.html' name='f32' ></frame>
+        </frameset>
+    </frameset>
+</html>

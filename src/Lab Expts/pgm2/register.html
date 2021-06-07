@@ -1,0 +1,40 @@
+<form action="/action_page.php" method="post">
+    <br><br>
+      <form>
+        <table style="border:'none'" height='600px' width='650px' align='center' cellpadding='10'>
+            <tr>
+                <td colspan="4" align="center" ><b>REGISTER HERE</b></td>
+               
+            </tr>
+            <tr>
+                <td colspan="2" align="right" cellpadding="15">NAME</td>
+                <td colspan="2"><input type="text" name="namefield" width="800" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right" cellpadding="15">PHONE NUMBER</td>
+                <td colspan="2"><input type="number" name="numfield" width="800" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right" cellpadding="15">EMAIL</td>
+                <td colspan="2"><input type="email" name="mailfield" width="800" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right" cellpadding="15">Choose one</td>
+                <td colspan="2"><input type="radio" name="toSRL" title="Sell"width="800" required><label for="Sell">SELL</label><input type="radio" name="gendername" title="Rent"width="800"><label for="Rent">BUY</label><input type="radio" name="gendername" title="Lease"width="800"><label for="Lease">REQUEST</label></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right" cellpadding="15">CHOOSE YOUR LOCATION</td>
+                <td colspan="2"><select id="loc" name="loc"><option value="def">Choose your location</option><option value="CSE">Mumbai</option><option value="ECE">Bangalore</option><option value="EEE">Kolkata</option><option value="oth">Other</option></select></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right" cellpadding="15">DESCRIPTION</td>
+                <td colspan="2"><textarea name="message" rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><button type="reset" name="resetfield">RESET</button></td>
+                <td colspan="2" ><button type="submit" name="submitfield">SUBMIT</button></td>
+            </tr>
+            
+        </table></form>
+   
+   </form>
